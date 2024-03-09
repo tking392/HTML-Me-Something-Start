@@ -1,1 +1,84 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    text-align: center;
+    background-image: url("images/arcade_background.png");
+}
+
+#mainHeading {
+    margin: 50px 60px;
+    background-color: hsla(0, 4%, 82%, 0.617);
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px rgb(218, 221, 9);
+}
+
+summary {
+    color: rgb(0, 0, 0);
+    background-color: hsl(0, 0%, 76%);
+    margin: auto;
+    width: 110px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+h2 {
+    color:white;
+    text-shadow: 2px 2px rgb(218, 221, 9);
+}
+
+p {
+    padding: 20px;
+    margin: 20px 120px;
+    color: rgb(0, 0, 0);
+    background-color: hsla(0, 4%, 82%, 0.884);
+    border-radius: 10px;
+}
+
+#mainPic {
+    width: 800px;
+    height: 475px;
+    border-radius: 2%;
+    border: 5px solid rgba(250, 250, 250, 0.808);
+    
+}
+
+.topTen {
+    height: 90px;
+    width: 90px;
+    border: 5px solid rgba(255, 79, 202, 0.87);
+    border-radius: 60%;
+}
+
+#gameMainPic {
+    height: 350px;
+    width: 525px;
+    border-radius: 25px;
+    border: 5px solid rgba(51, 206, 233, 0.849);
+}
+
+#gamePics {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    border: 5px solid rgba(238, 207, 32, 0.808);
+}
+
+p.funParagraph {
+
+}
+
+#logo {
+    height: 90px; 
+    width: 100px;
+    border-radius: 47%;
+}
+
+footer {
+    color: blue;
+    background-color: hsla(0, 4%, 82%, 0.884);
+    border: 5px solid rgba(238, 207, 32, 0.808);
+}
