@@ -34,6 +34,7 @@ p {
 }
 
 #mainHeading {
+    color: red;
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 5px double black;
@@ -152,11 +153,13 @@ summary {
 }
 
 .funParagraph {
-    color: rgb(0, 0, 0);
+    color: green;
+    text-shadow: 1px 1px rgb(201, 202, 143);
+    font-weight: bold;
     text-align: left;
     font-family: "Apple Chancery", cursive;
     font-size: 20px;
-    background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(rgba(255, 0, 0, 0.938), rgba(255, 255, 0, 0.952));
     border-radius: 0;
     
 }
