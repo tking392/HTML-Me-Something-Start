@@ -14,22 +14,29 @@ h1 {
     color: rgb(0, 0, 0);
     font-size: 58px;
     font: georgia;
-    text-shadow: 2px 2px rgb(12, 161, 187);
+    text-shadow:
+        3px 3px 0 rgb(12, 161, 187),
+        -1px -1px 0 rgb(12, 161, 187),  
+        1px -1px 0 rgb(12, 161, 187),
+        -1px 1px 0 rgb(12, 161, 187),
+        1px 1px 0 rgb(12, 161, 187);
 }
 
 p {
     padding: 20px;
     margin: 20px 120px;
-    color: rgb(0, 0, 0);
-    background-color: hsla(0, 4%, 82%, 0.966);
+    color: rgb(233, 233, 233);
+    background-color: hsl(240, 94%, 7%);
     border: 5px solid rgba(73, 246, 252, 0.808);
     border-radius: 10px;
     font: helvetica;
+    font-size: 17px;
 }
 
 #mainHeading {
     padding-top: 20px;
     padding-bottom: 20px;
+    border-bottom: 5px double black;
 }
 
 #mainPic {
@@ -54,8 +61,13 @@ nav {
 }
 
 article {
-    padding: 0px 0px 40px;
-    margin-top: -20px;
+    padding: 10px 0px 40px;
+}
+
+
+section {
+    padding-top: 50px;
+    border-bottom: 5px groove black ;
 }
 
 details summary {
@@ -71,14 +83,14 @@ details[open] summary {
 }
 
 details {
-    padding-bottom: 40px;
+    padding-bottom: 150px;
 }
 
 summary {
     padding: 6px;
     color: rgb(0, 0, 0);
     background-color: hsl(0, 0%, 76%);
-    margin: 10px 510px 0px;
+    margin: 20px 510px 0px;
     width: 110px;
     border: 2px solid rgb(0, 0, 0);
     box-shadow: 1px 1px 2px #000000;
@@ -86,10 +98,21 @@ summary {
 }
 
 #numberText {
-    font-size: 20px;
-    padding: 8px;
-    color: white;
-    background-color: blue;
+    font-size: 70px;
+    margin: auto;
+    padding: 50px 0px 50px;
+    color: rgb(236, 27, 27);
+    font-weight: 1000;
+    background: url("images/nesController.png");
+    background-size: 450px 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 
+        3px 3px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;;
 }
 
 #gameName {
@@ -128,8 +151,14 @@ summary {
     border: 5px solid rgba(238, 207, 32, 0.808);
 }
 
-p.funParagraph {
-
+.funParagraph {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: "Apple Chancery", cursive;
+    font-size: 20px;
+    background-image: linear-gradient(red, yellow);
+    border-radius: 0;
+    
 }
 
 #logo {
@@ -139,10 +168,13 @@ p.funParagraph {
 }
 
 footer {
-    color:rgb(30, 21, 158);
-    text-shadow: 1px 1px black;
+    color:rgb(59, 198, 216);
+    text-shadow: 3px 3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;;;
     font-weight: 1000;
-    font-size: 25px;
-    padding: 20px;
-    border-top: 5px double black;
+    font-size: 28px;
+    padding-bottom: 20px;
 }
